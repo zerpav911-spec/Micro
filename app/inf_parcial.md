@@ -1,16 +1,16 @@
 ## Esquema
 
-├── [Paquete Raíz del Proyecto] 
-│   ├── app/
-│   │   ├── __init__.py         
-│   │   ├── scripts/            <-- (Contiene el punto de inicio)
-│   │   │   └── run.py          
-│   │   └── src/                <-- (Contiene el código fuente)
-│   │       └── signal/         <-- (Módulo de procesamiento de señal)
-│   │           ├── signal.py   
-│   │           └── __init__.py 
-│   ├── venv/                   <-- (Entorno virtual)
-│   └── requirements.txt        <-- (Lista de dependencias)
+[Paquete Raíz del Proyecto] 
+├── app/
+│   ├── __init__.py         
+│   ├── scripts/            
+│   │   └── run.py          
+│   └── src/                
+│       └── signal/         
+│           ├── signal.py   
+│           └── __init__.py 
+├── venv/                   (Entorno virtual)
+└── requirements.txt        (Lista de dependencias)
 
 ### 1. Carpeta de Ejecución (`scripts/`)
 
