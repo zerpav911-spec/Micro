@@ -9,8 +9,8 @@
 │       └── signal/         
 │           ├── signal.py   
 │           └── __init__.py 
-├── venv/                   (Entorno virtual)
-└── requirements.txt        (Lista de dependencias)
+├── venven
+└── requirements.txt
 
 ### 1. Carpeta de Ejecución (`scripts/`)
 
