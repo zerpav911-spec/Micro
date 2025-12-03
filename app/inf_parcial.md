@@ -2,16 +2,15 @@
 
 ├── [Paquete Raíz del Proyecto] 
 │   ├── app/
-│   │   ├── __init__.py
-│   │   ├── inf_parcial.md
-│   │   ├── scripts/
-│   │   │   └── run.py
-│   │   └── src/
-│   │       └── signal/
+│   │   ├── __init__.py         <-- (Define 'app' como un paquete de Python)
+│   │   ├── scripts/            <-- (Contiene el punto de inicio del programa)
+│   │   │   └── run.py          <-- (Script principal de ejecución)
+│   │   └── src/                <-- (Contiene el código fuente modular)
+│   │       └── signal/         <-- (Módulo de procesamiento de señal)
 │   │           ├── signal.py   
 │   │           └── __init__.py 
-│   ├── venv/
-│   └── requirements.txt
+│   ├── venv/                   <-- (Entorno virtual - IGNORADO por Git)
+│   └── requirements.txt        <-- (Lista de dependencias)
 
 ### 1. Carpeta de Ejecución (`scripts/`)
 
